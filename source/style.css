@@ -1,0 +1,81 @@
+/* base-main page */
+
+h1 {
+    color: #EF4E3E;
+}
+
+.mainGrid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #D1CFCD;
+}
+
+
+.mainGrid .title {
+    display: flex;
+    place-items: center;
+    margin: 0 50px 0 200px;
+}
+
+a {
+    text-decoration: none;
+    color: #EF4E3E;
+}
+
+/* place pages */
+
+header {
+  display: flex;
+  justify-content: space-between; /* or 'flex-start' if you want all items aligned left */
+  align-items: center;
+  gap: 1rem; /* spacing between elements */
+  padding: 1rem;
+  background-color: #f8f8f8; /* optional background */
+}
+
+.box1{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #D1CFCD;
+    
+}
+
+.title {
+    display: flex;
+    margin: 0 0 0 50px;
+    justify-content: left;
+    align-items: center;
+    font-size: 1.8rem ;
+    font-weight: 500;
+    color: #EF4E3E;
+    
+}
+
+.box2{
+    display: flex;
+    width:500px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: #EF4E3E;
+    font-size: smaller;
+}
+
+.imageBox img{
+
+    height: 70vh;
+    margin: 20px;
+}
+
+

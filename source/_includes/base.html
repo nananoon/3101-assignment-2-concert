@@ -1,10 +1,45 @@
+---
+title: Places
+coordinates: 
+  - 35.649034, 139.790008
+  - 36.103663, -115.167611
+  - 1.290083, 103.851694
+  - 34.0814361,118.4136917
+  - 40.601237, -73.502479
+
+description: At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+---
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>{{ title }}</title>
-  </head>
-  <body>
-    {{ content }}
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{title}}</title>
+  
+  <link rel="stylesheet" href="/style.css" />
+
+</head>
+
+
+<body>
+   
+  <main>
+<div class="mainGrid">
+  <div class="title">
+    <h1>{{title | default: "Places"}}</h1>
+    <!-- <p>{{description}}</p> -->
+  </div>
+
+  <div class="placeList">
+      {% for place in collections.place %}
+        <li>
+          <a href="{{ place.url }}">{{ place.data.title }}</a>
+        </li>
+      {% endfor %}
+  </div>
+  
+</div>
+
+</body>
 </html>

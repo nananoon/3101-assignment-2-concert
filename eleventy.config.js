@@ -16,5 +16,14 @@ export default function (eleventyConfig) {
 	// source/_includes/base.html
 	// You can either change this directly for all pages, or override
 	// this for specific pages using the "layout" tag
-	eleventyConfig.addGlobalData("layout", "base.html");
+	eleventyConfig.addGlobalData("layout", "base.html", "place.html");
+
+
+	// This creates a collection named "place"
+	// Tells Eleventy to gather all Markdown files from the folder source/places/ with .md extension.
+	// loop through all your .md files in source/places/.
+
+  eleventyConfig.addCollection("place", function (collectionApi) {
+    return collectionApi.getFilteredByGlob("source/places/*.md");
+  });
 };
