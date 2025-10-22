@@ -1,7 +1,7 @@
 {
   "type": "module",
   "scripts": {
-    "build": "eleventy --input=source",
+     "build": "eleventy --pathprefix=3101-assignment-2-concert",
     "serve": "eleventy --serve --input=source"
   },
   "dependencies": {
