@@ -5,7 +5,7 @@ coordinates: 36.103663, -115.167611
 date: 2019-01-01
 layout: place.html
 image: "place02.jpg"
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+description: In a world on the brink of chaos, the destinies of the Twin Brother and his beloved Twin Sister hang in the balance. As the inseparable siblings stand on the threshold of adulthood, their playful joust of swordplay at their coming of age ceremony quickly transforms into a desperate fight for survival. Amidst the chaos of war, the twins are forced to confront the duality of KÀ—the intertwining forces of love and conflict that will define their journey. The royal twin siblings are torn apart during a fierce attack, with the sister cast adrift at sea alongside her loyal Nursemaid, while the brother, determined to reunite with her, embarks on a perilous quest accompanied by the Royal Court Jester. Their separation sets the stage as the twins are thrust into a treacherous journey. Each must navigate a hazardous landscape filled with unexpected allies and lurking dangers as they strive to reunite and save their kingdom.
 ---
 
 # {{title}}
