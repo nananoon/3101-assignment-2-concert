@@ -5,7 +5,7 @@ coordinates: 40.601237, -73.502479
 date: 2019-01-01
 layout: place.html
 image: "place05.jpg"
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+description: The Jones Beach Theater has a history stretching back to the 1930s, evolving from a wooden marine stadium for aquatic shows to a major concert venue. Originally named the Jones Beach Marine Theater, it was rebuilt in 1952 after its predecessor was deemed unsafe. The venue has undergone significant renovations since, expanding its capacity and modernizing over time, including a major reconstruction after Superstorm Sandy in 2012.  
 ---
 
 # {{title}}
